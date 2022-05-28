@@ -59,3 +59,16 @@ h2 {
     font-family: "Old Standard TT" ;
     font-size: 1rem;
 }
+
+.root {
+    background-color: #080A0C;
+    color:#ffffff;
+}
+
+#mode {
+    padding: 5px;
+    margin:1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
