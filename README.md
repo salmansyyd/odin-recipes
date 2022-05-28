@@ -1,6 +1,6 @@
 # Recipes
 
-Basic HTML and CSS web-site like food blog
+Basic HTML and CSS web-site for showcasing recipes
 
 # Skills
 
@@ -8,3 +8,7 @@ Basic HTML and CSS web-site like food blog
 - CSS
 - Linux
 - Git / Github
+
+# Live Preview
+
+- [Here](https://sayyed-salman.github.io/odin-recipes/index.html)
