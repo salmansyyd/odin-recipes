@@ -62,6 +62,7 @@ ol {
 }
 
 .title > img {
+    width: 100%;
     border-radius: 20px;
 }
 .method {
@@ -73,4 +74,11 @@ ol {
     font-family:'Old Standard TT',
         serif;
     font-style: italic;
+}
+
+
+@media screen and (max-width: 900px) {
+    .content{
+        flex-direction: column;
+    }
 }
