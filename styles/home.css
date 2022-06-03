@@ -41,9 +41,12 @@ h2 {
     gap: 50px;
     margin: 5%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .hero > img {
+    aspect-ratio: 1/1;
     border-radius: 30px;
     width: 50%;
 }
@@ -62,17 +65,50 @@ h2 {
     font-size: 2rem;
 }
 
+/* card s */
+.card-parent{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-radius: 5%;
+}
+
+.card > a {
+    text-align: center;
+    font-family: 'Old Standard TT';
+    text-decoration: none;
+    color: black;
+    font-size: 1.7wv;
+    margin:2px;
+    align-self: center;
+}
+
+
+.card-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 500px;
+}
+/* card e */
 .recipes > ul {
     display: flex;
     gap: 1rem;
     flex-direction: column;
 }
 
-.recipes > ul > li > a {
+/* .recipes > ul > li > a {
     text-decoration: none;
     font-family: "Old Standard TT" ;
     font-size: 1rem;
-}
+} */
 
 /* Recipes List Ending */
 
@@ -93,6 +129,7 @@ h2 {
 /* Dark Mode e */
 
 /* Responsive Design Starting */
+/* for Tablets */
 @media screen and (max-width:750px){
     .hero{
         flex-direction: column;
@@ -100,6 +137,28 @@ h2 {
 
     .hero > img {
         width: 100%;
+    }
+    .card-img{
+        width: 100%;
+    }
+}
+
+/* 4k and wider screens */
+@media  screen and (min-width:1400px) {
+    body {
+        background-color: red;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .hero > img {
+        width: 800px;
     }
 }
 
