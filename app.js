@@ -14,8 +14,5 @@ darkMode()
 function darkModeRecipes(){
     let page = document.getElementById('page')
     let buttonSwitch = document.getElementById('modeSwitch')
-
-    buttonSwitch.addEventListener('click', () => {
-        page.classList.toggle('dark')
-    })
+    page.classList.toggle('dark')
 }

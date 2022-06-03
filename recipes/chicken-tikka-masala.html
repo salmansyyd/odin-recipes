@@ -14,7 +14,7 @@
             <h1>Chicken Tikka Masala</h1>
             <img src="../img/Chicken-Tikka-Masala-min.jpg" alt="chicken tikka masala" width="500px">
             <button><a href="../index.html">Home</a></button>
-            <button id="modeSwitch" onclick="darkModeRecipes()" >Dark Mode</button>
+            <button id="modeSwitch">Dark Mode</button>
         </div>
 
         <div class="method">
@@ -81,6 +81,17 @@
                     </div>
                 </div>
 
-        <script src="../app.js"></script>
+        <!-- <script src="../app.js"></script> -->
+        <script>
+            function darkModeRecipes() {
+                    let page = document.getElementById('page')
+                    let buttonSwitch = document.getElementById('modeSwitch')
+
+                    buttonSwitch.addEventListener('click', () => {
+                        page.classList.toggle('dark')
+                    })
+                }
+                darkModeRecipes()
+        </script>
 </body>
 </html>
