@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Old+Standard+TT&display=swap');
 
+
+
+
+/* Font Family */
 /* 
     font-family: 'Bebas Neue',cursive;
     font-family: 'Old Standard TT',serif;
 */
 
+/* Root Edits */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +18,7 @@
 }
 
 
+/* Title Starting */
 h1 {
     margin:3%;
     text-align: center;
@@ -22,9 +28,13 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: cursive;
     font-size: 1.5rem;
 }
 
+/* Title Ending */
+
+/* Hero Starting */
 .hero {
     display: flex;
     flex-direction: row;
@@ -38,6 +48,9 @@ h2 {
     width: 50%;
 }
 
+/* Hero Ending */
+
+/* Recipes List Starting */
 .recipes {
     align-self: center;
     display: flex;
@@ -61,6 +74,9 @@ h2 {
     font-size: 1rem;
 }
 
+/* Recipes List Ending */
+
+/* Dark Mode s */
 .root {
     background-color: #080A0C;
     color:#ffffff;
@@ -74,6 +90,9 @@ h2 {
     /* transform: translateX(-60%); */
 }
 
+/* Dark Mode e */
+
+/* Responsive Design Starting */
 @media screen and (max-width:750px){
     .hero{
         flex-direction: column;
@@ -83,3 +102,5 @@ h2 {
         width: 100%;
     }
 }
+
+/* Resopnsive Design Ending */
