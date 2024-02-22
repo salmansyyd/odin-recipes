@@ -67,7 +67,8 @@ ol {
 }
 .method {
     align-self: center;
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
+    padding: 2rem;
 }
 
 .method > .description {
