@@ -1,6 +1,6 @@
 # Recipes
 
-Basic HTML and CSS web-site for showcasing recipes
+HTML and CSS web-site for showcasing recipes
 
 # Skills
 
@@ -10,5 +10,4 @@ Basic HTML and CSS web-site for showcasing recipes
 - Git / Github
 
 # Live Preview
-
-- [Here](https://sayyed-salman.github.io/odin-recipes/index.html)
+- https://salmansyyd.github.io/odin-recipes
